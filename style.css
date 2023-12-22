@@ -1,0 +1,40 @@
+fieldset{
+    width: 300px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.qrcode-container{
+    display: none;
+}
+
+.form-group{
+    margin-bottom: 10px;
+}
+
+.inputLevel{
+    border: none;
+    outline: none;
+    width: 65px;
+    font-weight: bold;
+}
+input{
+    outline: none;
+}
+
+button{
+    margin:5px 0px 40px 0px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#inputFieldtxt11{
+    padding-right: 10px;
+}

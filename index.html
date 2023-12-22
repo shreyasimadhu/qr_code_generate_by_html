@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shreyasi - QR Code</title>
+    <link rel="shortcut icon" href="https://shreyasimadhu.github.io/shreyasi_madhu_shampa/images/memories/2000.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <fieldset>
+        <legend>QR CODE</legend>
+        <form action="">
+            <div class="form-group">
+                <input type="text" id="inputFieldtxt1" class="inputLevel" name="inputFieldtxt" value="Name :" readonly>
+                <input type="text" id="inputFieldtxt2" name="inputFieldtxt" value="Shreyasi Madhu" required>
+            </div>
+
+
+            <div class="form-group">
+                <input type="text" id="inputFieldtxt3" class="inputLevel" name="inputFieldtxt" value="Phone :" readonly>
+                <input type="number" id="inputFieldtxt4" name="inputFieldtxt" value="0170000000" required>
+            </div>
+
+
+            <div class="form-group">
+                <input type="text" id="inputFieldtxt5" class="inputLevel" name="inputFieldtxt" value="Email :" readonly>
+                <input type="email" id="inputFieldtxt6" name="inputFieldtxt" value="shreyasi19@gmail.com" required>
+            </div>
+
+
+            <div class="form-group">
+                <input type="text" id="inputFieldtxt7" class="inputLevel" name="inputFieldtxt" value="Website :" readonly>
+                <input type="url" id="inputFieldtxt8" name="inputFieldtxt" value="https://shreyasimadhu.github.io/shreyasi_madhu_shampa" required>
+            </div>
+
+
+            <div class="form-group">
+                <input type="text" id="inputFieldtxt9" class="inputLevel" name="inputFieldtxt" value="Tel :" readonly>
+                <input type="tel" id="inputFieldtxt10" name="inputFieldtxt" value="+0097568931" required>
+            </div>
+
+
+            <div class="form-group">
+                <input type="text" id="inputFieldtxt11" class="inputLevel" name="inputFieldtxt" value="Birthday : " readonly>
+                <input type="date" id="inputFieldtxt12" name="inputFieldtxt" value="2000-01-15" required>
+            </div>
+
+
+    
+            <button type="button" onclick="generateQRcode()">Generate Qr Code</button>
+    
+    
+            <div id="qrcode-container">
+                <div id="qrcode" class="qrcode"></div>
+            </div>
+    
+        </form>
+    </fieldset>
+
+
+
+    <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+    <script src="./qr.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
